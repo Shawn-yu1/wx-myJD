@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/car/car"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "京东购物",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+      "color": "#333",
+      "selectedColor": "#f00",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconsPath":"images/index.png",
+      "selectedIconPath":"images/index-selected.png"
+      },
+      {
+        "pagePath": "pages/car/car",
+        "text": "购物车",
+        "iconsPath":"/images/jd.png",
+        "selectedIconPath": "/images/car.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

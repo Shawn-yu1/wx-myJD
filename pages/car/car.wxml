@@ -1,0 +1,22 @@
+<block wx:if="{{list.length<=0}}">
+ 暂无商品
+</block>
+<block wx:else>
+<view class="show" wx:for="{{list}}" wx:key="{{index}}">
+  <checkbox color="red" bindtap="changesingo" data-index="{{index}}" checked="{{item.checked}}"></checkbox>
+  <text class="name">{{item.goods_name}}</text>
+  <image class="shoppic" src="{{item.goods_img_src}}"></image>
+  <text class="pirce">单价：{{item.goods_price}}</text>
+  <button size="mini" bindtap="delet" data-id="{{index}}" type="warn">删除</button>
+  <view class="control">
+    <image src="../../images/jian.png" bindtap="jian" data-id="{{index}}"></image>
+    <text class="numbers">{{item.num}}</text>
+    <image src="../../images/jia.png" bindtap="add" data-id="{{index}}"></image>
+  </view>
+</view>
+<view class="end">
+  <checkbox checked="{{allselect}}" bindtap="checkall">全选</checkbox>
+  <text>总计：{{zongjia}}</text>
+  <view class="jiesuan">去结算</view>
+</view>
+</block>

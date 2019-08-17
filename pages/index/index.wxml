@@ -1,0 +1,139 @@
+<view class="navtop" hidden="{{flag}}">
+<icon bindtap="delet" class="clear" type="clear" size="18"></icon>
+<image
+class="logo"
+src="//img11.360buyimg.com/jdphoto/s80x80_jfs/t27847/91/107794072/6854/14716732/5b850ecaN644d2983.png"></image>
+<text class="shop">打开京东APP，购物更轻松</text>
+<view class="open">立即打开</view>
+</view>
+<view class="swiperbox">
+<view class="search">
+  <image src="../../images/jd.png" class="jd"></image>
+  <image src="../../images/fen.png" class="fen"></image>
+  <image src="../../images/sousuo.png" class="sousuo"></image>
+  <image src="../../images/fenlei.png"></image>
+  <input type="text" placeholder="费列罗巧克力"></input>
+  <text>登录</text>
+</view>
+<swiper class="swiper" indicator-dots autoplay circular>
+  <swiper-item>
+    <image src="//m.360buyimg.com/mobilecms/s750x366_jfs/t1/81959/36/5466/112269/5d39f1d4E64ffb035/a012597bd3eb3247.jpg!cr_1125x549_0_72!q70.jpg.dpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="//m.360buyimg.com/mobilecms/s750x366_jfs/t1/40989/37/10587/86799/5d3e9e05Ec33f48b7/1f3ef33cb8a376bc.jpg!cr_1125x549_0_72!q70.jpg.dpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="//m.360buyimg.com/mobilecms/s750x366_jfs/t1/31746/32/1528/111163/5c500f8aEe3c6c0e7/0e1519939f544e8d.jpg!cr_1125x549_0_72!q70.jpg.dpg"></image>
+  </swiper-item>
+</swiper>
+</view>
+<swiper class="iconswiper" indicator-dots>
+  <swiper-item>
+    <view class="box">
+      <image src="//m.360buyimg.com/mobilecms/s120x120_jfs/t1/20983/16/10753/6124/5c8a16aaE5d6b15d7/01e0e818a7505267.png"></image>
+      <text>京东超市</text>
+    </view>
+    <view class="box">
+      <image src="//m.360buyimg.com/mobilecms/s120x120_jfs/t1/39401/17/2391/5859/5cc06fcfE2ad40668/28cda0a571b4a576.png"></image>
+      <text>数码家电</text>
+    </view>
+    <view class="box">
+      <image src="//m.360buyimg.com/mobilecms/s120x120_jfs/t1/17169/3/4127/4611/5c2f35cfEd87b0dd5/65c0cdc1362635fc.png"></image>
+      <text>京东服饰</text>
+    </view>
+    <view class="box">
+      <image src="//m.360buyimg.com/mobilecms/s120x120_jfs/t1/27962/13/1445/4620/5c120b24Edd8c34fe/43ea8051bc50d939.png"></image>
+      <text>京东生鲜</text>
+    </view>
+    <view class="box">
+      <image src="//m.360buyimg.com/mobilecms/s120x120_jfs/t16990/157/2001547525/17770/a7b93378/5ae01befN2494769f.png"></image>
+      <text>京东到家</text>
+    </view>
+    <view class="box">
+      <image src="//m.360buyimg.com/mobilecms/s120x120_jfs/t1/20983/16/10753/6124/5c8a16aaE5d6b15d7/01e0e818a7505267.png"></image>
+      <text>京东超市</text>
+    </view>
+    <view class="box">
+      <image src="//m.360buyimg.com/mobilecms/s120x120_jfs/t1/20983/16/10753/6124/5c8a16aaE5d6b15d7/01e0e818a7505267.png"></image>
+      <text>京东超市</text>
+    </view>
+    <view class="box">
+      <image src="//m.360buyimg.com/mobilecms/s120x120_jfs/t1/20983/16/10753/6124/5c8a16aaE5d6b15d7/01e0e818a7505267.png"></image>
+      <text>京东超市</text>
+    </view>
+    <view class="box">
+      <image src="//m.360buyimg.com/mobilecms/s120x120_jfs/t1/20983/16/10753/6124/5c8a16aaE5d6b15d7/01e0e818a7505267.png"></image>
+      <text>京东超市</text>
+    </view>
+    <view class="box">
+      <image src="//m.360buyimg.com/mobilecms/s120x120_jfs/t1/20983/16/10753/6124/5c8a16aaE5d6b15d7/01e0e818a7505267.png"></image>
+      <text>京东超市</text>
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view class="box">
+      <image src="//m.360buyimg.com/mobilecms/s120x120_jfs/t1/20983/16/10753/6124/5c8a16aaE5d6b15d7/01e0e818a7505267.png"></image>
+      <text>京东超市</text>
+    </view>
+    <view class="box">
+      <image src="//m.360buyimg.com/mobilecms/s120x120_jfs/t1/39401/17/2391/5859/5cc06fcfE2ad40668/28cda0a571b4a576.png"></image>
+      <text>数码家电</text>
+    </view>
+    <view class="box">
+      <image src="//m.360buyimg.com/mobilecms/s120x120_jfs/t1/17169/3/4127/4611/5c2f35cfEd87b0dd5/65c0cdc1362635fc.png"></image>
+      <text>京东服饰</text>
+    </view>
+    <view class="box">
+      <image src="//m.360buyimg.com/mobilecms/s120x120_jfs/t1/27962/13/1445/4620/5c120b24Edd8c34fe/43ea8051bc50d939.png"></image>
+      <text>京东生鲜</text>
+    </view>
+    <view class="box">
+      <image src="//m.360buyimg.com/mobilecms/s120x120_jfs/t16990/157/2001547525/17770/a7b93378/5ae01befN2494769f.png"></image>
+      <text>京东到家</text>
+    </view>
+    <view class="box">
+      <image src="//m.360buyimg.com/mobilecms/s120x120_jfs/t1/20983/16/10753/6124/5c8a16aaE5d6b15d7/01e0e818a7505267.png"></image>
+      <text>京东超市</text>
+    </view>
+    <view class="box">
+      <image src="//m.360buyimg.com/mobilecms/s120x120_jfs/t1/20983/16/10753/6124/5c8a16aaE5d6b15d7/01e0e818a7505267.png"></image>
+      <text>京东超市</text>
+    </view>
+    <view class="box">
+      <image src="//m.360buyimg.com/mobilecms/s120x120_jfs/t1/20983/16/10753/6124/5c8a16aaE5d6b15d7/01e0e818a7505267.png"></image>
+      <text>京东超市</text>
+    </view>
+    <view class="box">
+      <image src="//m.360buyimg.com/mobilecms/s120x120_jfs/t1/20983/16/10753/6124/5c8a16aaE5d6b15d7/01e0e818a7505267.png"></image>
+      <text>京东超市</text>
+    </view>
+    <view class="box">
+      <image src="//m.360buyimg.com/mobilecms/s120x120_jfs/t1/20983/16/10753/6124/5c8a16aaE5d6b15d7/01e0e818a7505267.png"></image>
+      <text>京东超市</text>
+    </view>
+  </swiper-item>
+</swiper>
+<view class="line"></view>
+<view class="ad">
+  <image src="//m.360buyimg.com/mobilecms/s376x240_jfs/t1/37103/7/7876/115887/5ccff8bfE320f1d7b/147aad3576c76277.png!q70.jpg.dpg"></image>
+  <image src="//m.360buyimg.com/mobilecms/s376x240_jfs/t1/32449/33/15631/174497/5cc2d86bE0289110c/9c53e25651659d43.png!q70.jpg.dpg"></image>
+</view>
+<view class="showlist">
+  <image 
+class="tuijian"  src="//img11.360buyimg.com/jdphoto/jfs/t1/31601/22/15554/14040/5cc2a86fEbdb1098b/88174b36f85283b6.png"></image>
+  <view class="shoplist">
+    <view class="showbox" wx:for="{{list}}" wx:key="{{index}}" bindtap="Todetail" data-id="{{item.good_id}}">
+      <image src="{{item.goods_img_src}}"></image>
+      <text class="sign">{{item.goods_name}}</text>
+      <view class="price">
+        <text class="money">￥{{item.goods_price}}</text>
+        <block wx:for="{{item.goods_tags}}" wx:key="{{index}}">
+        <text class="jian">{{item}}</text>
+        </block>
+        <text class="new" >看相似</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+

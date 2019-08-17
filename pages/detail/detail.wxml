@@ -1,0 +1,5 @@
+<view class="showbox">
+  <image src="{{msg.goods_img_src}}"></image>
+  <text>{{msg.goods_name}}</text>
+  <button type="warn" bindtap="addcar">加入购物车</button>
+</view>
